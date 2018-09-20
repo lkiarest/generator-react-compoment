@@ -1,9 +1,9 @@
-# generator-react-component [![NPM version][npm-image]][npm-url]
+# @qintx/generator-react-component [![NPM version][npm-image]][npm-url]
 > 
 
 ## Installation
 
-First, install [Yeoman](http://yeoman.io) and generator-react-component using [yarn](http://yarnpkg.com) (we assume you have pre-installed [node.js](https://nodejs.org/)).
+First, install [Yeoman](http://yeoman.io) and @qintx/generator-react-component using [yarn](http://yarnpkg.com) (we assume you have pre-installed [node.js](https://nodejs.org/)).
 
 ```bash
 yarn global add yo
