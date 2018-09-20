@@ -1,19 +1,19 @@
-# generator-react-compoment [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
+# generator-react-component [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
 > 
 
 ## Installation
 
-First, install [Yeoman](http://yeoman.io) and generator-react-compoment using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
+First, install [Yeoman](http://yeoman.io) and generator-react-component using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
 
 ```bash
 npm install -g yo
-npm install -g generator-react-compoment
+npm install -g generator-react-component
 ```
 
 Then generate your new project:
 
 ```bash
-yo react-compoment
+yo react-component
 ```
 
 ## Getting To Know Yeoman
@@ -28,9 +28,9 @@ yo react-compoment
 MIT © [qintianxiang]()
 
 
-[npm-image]: https://badge.fury.io/js/generator-react-compoment.svg
-[npm-url]: https://npmjs.org/package/generator-react-compoment
-[travis-image]: https://travis-ci.org/lkiarest/generator-react-compoment.svg?branch=master
-[travis-url]: https://travis-ci.org/lkiarest/generator-react-compoment
-[daviddm-image]: https://david-dm.org/lkiarest/generator-react-compoment.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org/lkiarest/generator-react-compoment
+[npm-image]: https://badge.fury.io/js/generator-react-component.svg
+[npm-url]: https://npmjs.org/package/generator-react-component
+[travis-image]: https://travis-ci.org/lkiarest/generator-react-component.svg?branch=master
+[travis-url]: https://travis-ci.org/lkiarest/generator-react-component
+[daviddm-image]: https://david-dm.org/lkiarest/generator-react-component.svg?theme=shields.io
+[daviddm-url]: https://david-dm.org/lkiarest/generator-react-component

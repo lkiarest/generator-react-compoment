@@ -76,6 +76,6 @@
     "precommit": "lint-staged",
     "test": "jest"
   },
-  "repository": "lkiarest/generator-react-compoment",
+  "repository": "lkiarest/generator-react-component",
   "license": "MIT"
 }

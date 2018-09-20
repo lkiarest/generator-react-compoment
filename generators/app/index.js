@@ -8,7 +8,7 @@ module.exports = class extends Generator {
     // Have Yeoman greet the user.
     this.log(
       yosay(
-        `Welcome to the smashing ${chalk.red('generator-react-compoment')} generator!`
+        `Welcome to the smashing ${chalk.red('generator-react-component')} generator!`
       )
     );
 
