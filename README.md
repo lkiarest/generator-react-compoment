@@ -7,12 +7,14 @@ First, install [Yeoman](http://yeoman.io) and generator-react-component using [y
 
 ```bash
 yarn global add yo
-yarn global add generator-react-component
+yarn global add https://github.com/lkiarest/generator-react-component
 ```
 
-Then generate your new project:
+Then generate your new project within a new folder:
 
 ```bash
+mkdir MyComponent
+cd MyComponent
 yo react-component
 ```
 
