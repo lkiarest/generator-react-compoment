@@ -1,19 +1,19 @@
 {
-  "name": "generator-react-component",
-  "version": "0.0.0",
-  "description": "",
-  "homepage": "",
+  "name": "@qintx/generator-react-component",
+  "version": "0.9.1",
+  "description": "React component generator with docgen and test runner",
+  "homepage": "https://github.com/lkiarest/generator-react-component",
   "author": {
-    "name": "qintianxiang",
+    "name": "lkiarest",
     "email": "rushi_wowen@163.com",
-    "url": ""
+    "url": "https://github.com/lkiarest"
   },
   "files": [
     "generators"
   ],
   "main": "generators/index.js",
   "keywords": [
-    "",
+    "generator-react-component",
     "yeoman-generator"
   ],
   "devDependencies": {

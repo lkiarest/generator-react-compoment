@@ -7,7 +7,7 @@ First, install [Yeoman](http://yeoman.io) and generator-react-component using [y
 
 ```bash
 yarn global add yo
-yarn global add https://github.com/lkiarest/generator-react-component
+yarn global add @qintx/generator-react-component
 ```
 
 Then generate your new project within a new folder:
@@ -27,7 +27,7 @@ yo react-component
 
 ## License
 
-MIT © [qintianxiang]()
+MIT © [qintianxiang](https://github.com/lkiarest)
 
 
 [npm-image]: https://badge.fury.io/js/generator-react-component.svg
