@@ -15,7 +15,7 @@ Then generate your new project within a new folder:
 ```bash
 mkdir MyComponent
 cd MyComponent
-yo react-component
+yo @qintx/react-component
 ```
 
 ## Getting To Know Yeoman
