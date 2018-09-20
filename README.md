@@ -29,10 +29,5 @@ yo react-component
 
 MIT © [qintianxiang](https://github.com/lkiarest)
 
-
-[npm-image]: https://badge.fury.io/js/generator-react-component.svg
-[npm-url]: https://npmjs.org/package/generator-react-component
-[travis-image]: https://travis-ci.org/lkiarest/generator-react-component.svg?branch=master
-[travis-url]: https://travis-ci.org/lkiarest/generator-react-component
-[daviddm-image]: https://david-dm.org/lkiarest/generator-react-component.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org/lkiarest/generator-react-component
+[npm-image]: https://badge.fury.io/js/%40qintx%2Fgenerator-react-component.svg
+[npm-url]: https://www.npmjs.com/package/@qintx/generator-react-component
