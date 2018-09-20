@@ -3,7 +3,7 @@
 
 ## Installation
 
-First, install [Yeoman](http://yeoman.io) and generator-react-component using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
+First, install [Yeoman](http://yeoman.io) and generator-react-component using [yarn](http://yarnpkg.com) (we assume you have pre-installed [node.js](https://nodejs.org/)).
 
 ```bash
 yarn global add yo
