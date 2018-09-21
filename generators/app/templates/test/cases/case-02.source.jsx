@@ -10,4 +10,4 @@
 import React from 'react'
 import <%= componentName %> from '../../lib/index'
 
-export default <<%= componentName %> name='qqq' />
+export default <<%= componentName %> name="qqq" />
