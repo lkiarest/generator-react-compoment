@@ -7,7 +7,6 @@ First, install [Yeoman](http://yeoman.io) and @qintx/generator-react-component u
 
 ```bash
 yarn global add yo
-yarn global add @qintx/generator-react-component
 ```
 
 Then generate your new project within a new folder:

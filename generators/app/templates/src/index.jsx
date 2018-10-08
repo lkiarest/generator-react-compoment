@@ -10,6 +10,10 @@ import styles from './styles/index.less'
  * @date 2018-09-03
  */
 class <%= componentName %> extends React.Component {
+    componentWillUnmount() {
+        console.log('hello unmount')
+    }
+
     /**
      * 此方法仅作为测试文档工具用
      * @param {String} user 用户姓名

@@ -1,4 +1,4 @@
-const path = require('path')
+import path from 'path'
 
 const TEST_ROOT = path.resolve(__dirname, 'test')
 

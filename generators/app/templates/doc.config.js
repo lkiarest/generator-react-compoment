@@ -1,4 +1,5 @@
-const path = require('path')
+import path from 'path'
+import buildConf from './build.config'
 
 export default {
     distDir: path.resolve(__dirname, 'site'),
@@ -9,7 +10,7 @@ export default {
     webpack: {
         resolve: {
             alias: {
-                '@lib': path.resolve(__dirname, 'lib')
+                '@styleEntry': buildConf.targetStyle
             }
         }
     }

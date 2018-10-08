@@ -7,9 +7,6 @@ const LIB = process.env.npm_package_config_lib
 const BRIEF_NAME = packageConf.name.includes('/') ? packageConf.name.split('/')[1] : packageConf.name
 
 export default {
-    name: packageConf.name,
-    briefName: BRIEF_NAME,
-    version: packageConf.version,
     src: SRC,
     entry: path.resolve(SRC, 'index.jsx'),
     targetEntry: path.join(TARGET_DIR, 'index.js'),
