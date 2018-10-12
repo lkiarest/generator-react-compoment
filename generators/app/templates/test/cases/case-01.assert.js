@@ -2,5 +2,5 @@
  * assertions
  */
 export default (assert, element) => {
-    assert.equal(element.text(), 'Hello, txqin')
+    assert.equal(element.text(), 'Hello, ')
 }

@@ -1,5 +1,4 @@
 import React from 'react'
-// import ReactDom from 'react-dom'
 import propTypes from 'prop-types'
 import styles from './styles/index.less'
 
@@ -10,6 +9,21 @@ import styles from './styles/index.less'
  * @date 2018-09-03
  */
 class <%= componentName %> extends React.Component {
+    constructor(props) {
+        super(props)
+        this.state = {
+            name: ''
+        }
+    }
+
+    componentWillMount() {
+        const { fetchName } = this.props
+
+        if (fetchName) {
+            fetchName().then(name => this.setState({ name }))
+        }
+    }
+
     componentWillUnmount() {
         console.log('hello unmount')
     }
@@ -30,7 +44,7 @@ class <%= componentName %> extends React.Component {
      * @return {jsx} rendered nodes
      */
     render() {
-        const { name } = this.props
+        const { name } = this.state
 
         return (
             <div>
@@ -47,11 +61,8 @@ class <%= componentName %> extends React.Component {
     /**
      * 用户姓名
      */
-    name: propTypes.string
+    fetchName: propTypes.func
 }
 
-<%= componentName %>.defaultProps = {
-    name: 'txqin'
-}
 
 export default <%= componentName %>

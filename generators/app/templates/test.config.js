@@ -10,5 +10,6 @@ export default {
     assertTmpl: path.join(TEST_ROOT, 'cases', 'case-{}.assert.js'),
     testTmpl: 'case-{}.test.js', // 生成临时文件的模板
     tmpDir: path.join(TEST_ROOT, 'test_out'), // 动态生成临时测试文件的目录
-    samples: ['01', '02'] // 使用指定的 case 作为文档中的示例代码
+    samples: ['01', '02', '03'], // 使用指定的 case 作为文档中的示例代码
+    sampleTag: 'doc'
 }
