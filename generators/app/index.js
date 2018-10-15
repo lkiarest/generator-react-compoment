@@ -36,22 +36,22 @@ module.exports = class extends Generator {
 
   writing() {
     const componentName = this.props.componentName;
+    const distPath = this.destinationPath(`./${componentName}`);
 
-    this.fs.copyTpl(
-      this.templatePath('**/*'),
-      this.destinationPath(`./${componentName}`),
-      {
-        componentName,
-        libName: this.props.libName
-      }
-    );
+    this.fs.copyTpl(this.templatePath('**/*'), distPath, {
+      componentName,
+      libName: this.props.libName
+    });
 
-    this.fs.copy(this.templatePath('**/.*'), this.destinationPath(`./${componentName}`));
+    this.fs.copy(this.templatePath('**/.*'), distPath);
   }
 
   install() {
+    const componentName = this.props.componentName;
+    process.chdir(this.destinationPath(`./${componentName}`));
+
     this.installDependencies({
-      yarn: false,
+      yarn: true,
       npm: false,
       bower: false
     });
