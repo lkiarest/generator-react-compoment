@@ -12,9 +12,9 @@ yarn global add yo
 Then generate your new project within a new folder:
 
 ```bash
-mkdir MyComponent
-cd MyComponent
 yo @qintx/react-component
+// input the Component Name
+// input the UI Library Name
 ```
 
 ## Getting To Know Yeoman

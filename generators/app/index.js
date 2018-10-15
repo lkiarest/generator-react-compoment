@@ -51,7 +51,7 @@ module.exports = class extends Generator {
 
   install() {
     this.installDependencies({
-      yarn: true,
+      yarn: false,
       npm: false,
       bower: false
     });
