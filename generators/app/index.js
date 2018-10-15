@@ -23,7 +23,7 @@ module.exports = class extends Generator {
         type: 'input',
         name: 'libName',
         message: 'Input your library name ?',
-        default: 'ui',
+        default: 'shein-components',
         store: true
       }
     ];
