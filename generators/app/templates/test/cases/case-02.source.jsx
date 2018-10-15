@@ -11,7 +11,7 @@ import React from 'react'
 import <%= componentName %> from '../../lib/index'
 
 // doc
-import { withAdapter, ProviderTypes } from 'react-component-tool'
+import { withAdapter, ProviderTypes } from '@qintx/react-component-tool'
 
 const Mock<%= componentName %> = withAdapter({
     type: ProviderTypes.Mock,

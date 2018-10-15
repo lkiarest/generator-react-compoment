@@ -23,6 +23,6 @@
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-jsx-a11y": "^6.1.1",
     "eslint-plugin-react": "^7.11.1",
-    "react-component-tool": "https://github.com/lkiarest/react-component-tool"
+    "react-component-tool": "@qintx/react-component-tool"
   }
 }
