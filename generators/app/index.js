@@ -35,12 +35,18 @@ module.exports = class extends Generator {
   }
 
   writing() {
-    this.fs.copyTpl(this.templatePath('**/*'), this.destinationPath('.'), {
-      componentName: this.props.componentName,
-      libName: this.props.libName
-    });
+    const componentName = this.props.componentName;
 
-    this.fs.copy(this.templatePath('**/.*'), this.destinationPath('.'));
+    this.fs.copyTpl(
+      this.templatePath('**/*'),
+      this.destinationPath(`./${componentName}`),
+      {
+        componentName,
+        libName: this.props.libName
+      }
+    );
+
+    this.fs.copy(this.templatePath('**/.*'), this.destinationPath(`./${componentName}`));
   }
 
   install() {
