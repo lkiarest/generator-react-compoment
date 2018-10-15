@@ -64,5 +64,4 @@ class <%= componentName %> extends React.Component {
     fetchName: propTypes.func
 }
 
-
 export default <%= componentName %>
