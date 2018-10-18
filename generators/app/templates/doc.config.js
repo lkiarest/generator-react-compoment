@@ -1,5 +1,4 @@
 import path from 'path'
-import buildConf from './build.config'
 
 export default {
     distDir: path.resolve(__dirname, 'site'),
@@ -10,7 +9,7 @@ export default {
     webpack: {
         resolve: {
             alias: {
-                '@styleEntry': buildConf.targetStyle
+                '@styleEntry': path.resolve(__dirname, 'lib/index.default.css')
             }
         }
     }
