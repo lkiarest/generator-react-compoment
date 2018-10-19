@@ -7,7 +7,7 @@
  */
 
 import React from 'react'
-import <%= componentName %> from '../../lib/index'
+import <%= componentName %> from '../../src/index'
 
 // doc
 export default <<%= componentName %> />

@@ -8,7 +8,7 @@
  */
 
 import React from 'react'
-import <%= componentName %> from '../../lib/index'
+import <%= componentName %> from '../../src/index'
 
 // doc
 import { withAdapter, ProviderTypes } from '@qintx/react-component-tool'
