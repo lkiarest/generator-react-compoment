@@ -11,18 +11,17 @@ import React from 'react'
 import <%= componentName %> from '../../src/index'
 
 // doc
-import { withAdapter, ProviderTypes } from '@qintx/react-component-tool'
+import { withAdapter, ProviderTypes } from '@qintx/shein-biz-adapter'
 
-const Mock<%= componentName %> = withAdapter({
-    type: ProviderTypes.Mock,
-    option: {
-        fetch: {
+const Mock<%= componentName %> = withAdapter(ProviderTypes.Mock, {
+    provider: {
+        '/user': {
             username: 'qqq'
         }
     }
 })(<%= componentName %>, {
     fetchName() {
-        return this.fetch().then(res => res.username)
+        return this.request('/user').then(res => res.username)
     }
 })
 

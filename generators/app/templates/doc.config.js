@@ -9,7 +9,7 @@ export default {
     webpack: {
         resolve: {
             alias: {
-                '@styleEntry': path.resolve(__dirname, 'lib/index.default.css')
+                // '@xxx': path.resolve(__dirname, 'xxx')
             }
         }
     }
