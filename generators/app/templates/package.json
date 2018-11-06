@@ -16,7 +16,7 @@
     "node": ">= 8.0.0"
   },
   "devDependencies": {
-    "@qintx/react-component-tool": "^0.9.6",
-    "@qintx/shein-biz-adapter": "^0.2.1"
+    "@shein/react-component-tool": "^0.9.6",
+    "@shein/shein-biz-adapter": "^0.2.1"
   }
 }

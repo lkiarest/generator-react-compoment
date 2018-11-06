@@ -11,7 +11,7 @@ import React from 'react'
 import <%= componentName %> from '../../src/index'
 
 // doc
-import { withAdapter, ProviderTypes } from '@qintx/shein-biz-adapter'
+import { withAdapter, ProviderTypes } from '@shein/shein-biz-adapter'
 
 const Mock<%= componentName %> = withAdapter(ProviderTypes.Mock, {
     provider: {
